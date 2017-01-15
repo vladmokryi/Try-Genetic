@@ -1,0 +1,15 @@
+'use strict';
+
+module.exports = {
+    popSize: 100,
+    mutateProbability: 0.9,
+    crossoverProbability: 0.8,
+    generations: 500,
+    fitness: function fitness(solution, callback) {
+        callback(
+            245 * solution[0][0] + 189 * solution[0][1] + 640 * solution[0][2] + 343 * solution[0][3] + 175 * solution[0][4] + 142.8 * solution[0][5] + 196 * solution[0][6] + 140 * solution[0][7] + 322 * solution[0][8] + 739.2 * solution[0][9] + 656.25 * solution[1][0] + 506.25 * solution[1][1] + 1800 * solution[1][2] + 918.75 * solution[1][3] + 437.5 * solution[1][4] + 382.5 * solution[1][5] + 560 * solution[1][6] + 350 * solution[1][7] + 920 * solution[1][8] + 2112 * solution[1][9] + 721.875 * solution[2][0] + 556.875 * solution[2][1] + 1950 * solution[2][2] + 1010.625 * solution[2][3] + 459.375 * solution[2][4] + 420.75 * solution[2][5] + 630 * solution[2][6] + 393.75 * solution[2][7] + 991.875 * solution[2][8] + 2310 * solution[2][9] + 183.75 * solution[3][0] + 141.75 * solution[3][1] + 525 * solution[3][2] + 257.25 * solution[3][3] + 122.5 * solution[3][4] + 107.1 * solution[3][5] + 171.5 * solution[3][6] + 91.875 * solution[3][7] + 261.625 * solution[3][8] + 616 * solution[3][9] + 398.125 * solution[4][0] + 307.125 * solution[4][1] + 1155 * solution[4][2] + 557.375 * solution[4][3] + 275.625 * solution[4][4] + 232.05 * solution[4][5] + 367.5 * solution[4][6] + 214.375 * solution[4][7] + 583.625 * solution[4][8] + 1355.2 * solution[4][9] + 918.75 * solution[5][0] + 708.75 * solution[5][1] + 2550 * solution[5][2] + 1286.25 * solution[5][3] + 590.625 * solution[5][4] + 535.5 * solution[5][5] + 787.5 * solution[5][6] + 459.375 * solution[5][7] + 1293.75 * solution[5][8] + 2970 * solution[5][9] + 525 * solution[6][0] + 405 * solution[6][1] + 1480 * solution[6][2] + 735 * solution[6][3] + 350 * solution[6][4] + 306 * solution[6][5] + 476 * solution[6][6] + 280 * solution[6][7] + 759 * solution[6][8] + 1724.8 * solution[6][9] + 796.25 * solution[7][0] + 614.25 * solution[7][1] + 2240 * solution[7][2] + 1114.75 * solution[7][3] + 551.25 * solution[7][4] + 464.1 * solution[7][5] + 735 * solution[7][6] + 428.75 * solution[7][7] + 1167.25 * solution[7][8] + 2648.8 * solution[7][9] + 306.25 * solution[8][0] + 236.25 * solution[8][1] + 805 * solution[8][2] + 428.75 * solution[8][3] + 214.375 * solution[8][4] + 178.5 * solution[8][5] + 269.5 * solution[8][6] + 153.125 * solution[8][7] + 422.625 * solution[8][8] + 954.8 * solution[8][9] + 511.875 * solution[9][0] + 394.875 * solution[9][1] + 1495 * solution[9][2] + 716.625 * solution[9][3] + 341.25 * solution[9][4] + 298.35 * solution[9][5] + 455 * solution[9][6] + 284.375 * solution[9][7] + 747.5 * solution[9][8] + 1716 * solution[9][9]
+        );
+    },
+    limitRow: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
+    limitColumn: [8, 10, 8, 12, 12, 10, 8, 12, 12, 8]
+}

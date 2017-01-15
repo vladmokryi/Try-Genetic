@@ -1,0 +1,15 @@
+{
+  "name": "try-genetoc",
+  "version": "0.0.1",
+  "description": "Try Genetic Algorithm in Node JS",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Vlad Mokryi",
+  "license": "ISC",
+  "dependencies": {
+    "genetic": "^0.3.1",
+    "lodash": "^4.17.2"
+  }
+}
